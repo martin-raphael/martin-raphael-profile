@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Suspense } from 'react';
+import FullStackLoader from '@/components/UI/FullStackLoader';
+import { LoadingProvider } from '@/context/LoadingContext';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +30,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <LoadingProvider>
+        <Suspense fallback={
+          <div className="fixed inset-0 flex items-center justify-center bg-white/80 z-50">
+            <FullStackLoader variant="page" message="Loading Portfolio..." />
+          </div>
+        }>
+          {children}
+        </Suspense>
+         </LoadingProvider>
       </body>
     </html>
   );
