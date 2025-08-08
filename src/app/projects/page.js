@@ -78,7 +78,7 @@ export default function Projects() {
               <button
                 onClick={() => {
                   setIsGitHubLoading(true);
-                  window.open('https://github.com/yourusername', '_blank');
+                  window.open('https://github.com/martin-raphael', '_blank');
                   setTimeout(() => setIsGitHubLoading(false), 1000);
                 }}
                 disabled={isGitHubLoading}
