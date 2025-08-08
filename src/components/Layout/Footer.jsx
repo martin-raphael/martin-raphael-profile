@@ -14,13 +14,13 @@ const Footer = () => {
             <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
               <FiGithub className="w-6 h-6" />
             </a>
-            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
+            <a href="https://github.com/martin-raphael" className="text-gray-500 hover:text-blue-600 transition-colors">
               <FiLinkedin className="w-6 h-6" />
             </a>
-            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
+            <a href="https://x.com/TechRalph" className="text-gray-500 hover:text-blue-600 transition-colors">
               <FiTwitter className="w-6 h-6" />
             </a>
-            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
+            <a href="mailto:michaelsoftware0@gmail.com" className="text-gray-500 hover:text-blue-600 transition-colors">
               <FiMail className="w-6 h-6" />
             </a>
           </div>
