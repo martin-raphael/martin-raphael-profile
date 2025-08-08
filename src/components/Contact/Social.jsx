@@ -17,7 +17,7 @@ const Social = () => {
     {
       icon: <FiMapPin className="w-6 h-6 text-blue-600" />,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Nairobi, Kenya",
       href: "#"
     }
   ];
@@ -26,7 +26,7 @@ const Social = () => {
     {
       icon: <FiGithub className="w-6 h-6" />,
       name: "GitHub",
-      href: "#"
+      href: "https://github.com/martin-raphael"
     },
     {
       icon: <FiLinkedin className="w-6 h-6" />,
@@ -36,7 +36,7 @@ const Social = () => {
     {
       icon: <FiTwitter className="w-6 h-6" />,
       name: "Twitter",
-      href: "#"
+      href: "https://x.com/TechRalph"
     }
   ];
 
