@@ -4,10 +4,10 @@ import Image from 'next/image';
 const WebProjects = () => {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "Full-featured online store with payment integration, admin dashboard, and recommendation engine.",
+      title: "Tours and travel Platform",
+      description: "A comprehensive Mzizi Caravan Adventures platform featuring secure payment integration, an intuitive admin dashboard, and a smart recommendation engine that personalizes travel suggestions based on user preferences.",
       technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-      link: "#",
+      link: "https://mzizi-caravan-adventures.vercel.app/",
       image: "/images/projects/ecommerce.png"
     },
     {
